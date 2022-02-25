@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Fitness</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googlerapis.com/css?family=Baloo+Bhai&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*css reset*/
+    body{ 
+        font-family: 'Baloo Bhai',cursive;
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('images/bg.png');
+        background-size:cover; 
+    }
+.left{
+    position: absolute;
+    left: 34px;
+    top: 20px;
+   display: inline-block; 
+
+}
+
+.left div{
+text-align: center;
+line-height: 19px;
+font-size: 26px;
+}
+
+.left img{
+    width:100px;
+}
+
+.mid{
+
+    display:block;
+    width: 50%;
+    margin: 20px auto;
+
+
+
+}
+.right{
+    position:absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    
+
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+
+}
+.navbar li a{
+    color: azure;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+ text-decoration:underline;
+ color: cornflowerblue;
+
+}
+
+.btn{
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    color: blanchedalmond;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(61, 61, 61);
+}
+
+.container{
+    border: 4px solid greenyellow;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 30%;
+    border-radius: 28px;
+}
+
+.form-group input{
+   text-align:center;
+   display: block;
+   width: 355px;
+   padding: 1px;
+   border: 2px solid black;
+   margin:11px;
+   font-size: 18px;
+   border-radius: 8px;
+   font-family: 'Baloo Bhai',cursive;
+
+}
+.container h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+}
+
+</style>
+    <body>
+<header class="header">
+    <!--left box for logo-->
+    <div class="left">
+     <img src="images/logo.png" alt="">
+     <div style="font-size: 14px;"> Golden Fitness</div>   
+    </div>
+
+    <!--mid box for navbar-->
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+     </div>
+
+     <!--right box for buttons-->
+     <div class="right">
+
+<button class="btn">
+Call Us Now
+</button>
+<button class="btn">
+Email Us
+</button>
+
+      </div>
+</header>
+  
+
+<div class="container">
+<h1>
+Join The Best Gym Of PUNE Now 
+<form action="noaction.php">
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your Name">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your Age">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your Gender">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your Locality">
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your Mobile Number">
+    </div>
+    <button class="btn">SUBMIT</button>
+</form>
+</h1>
+
+</div>
+</body>
+</html>
